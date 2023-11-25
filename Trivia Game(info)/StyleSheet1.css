@@ -1,0 +1,167 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url(banner.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar {
+    background: rgba(70, 3, 87, 0.459);
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar-brand {
+    font-size: 45px;
+}
+
+.nav-link {
+    color: white;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    transition: 1s ease;
+}
+
+    a:hover {
+        color: tomato;
+    }
+
+#row2 {
+    color: white;
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+    #row2 a:hover {
+        background-color: red;
+        color: white;
+    }
+
+#container2 {
+    overflow: hidden;
+}
+
+#row2 a {
+    box-shadow: 0px 0px 30px yellowgreen;
+    background-color: transparent;
+    color: red;
+    border: none;
+    transition: 1s ease;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#row3, #content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    #row3, #content a {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+        #row3 a {
+            background-color: transparent;
+            border: 1px solid black;
+            color: black;
+            transition: 0.5s ease;
+        }
+
+            #row3 a:hover {
+                background-color: rgb(46, 43, 43);
+                border: none;
+                color: white;
+            }
+
+.videobutton a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s ease;
+}
+
+    .videobutton a:hover {
+        background-color: rgb(46, 43, 43);
+        border: none;
+        color: white;
+    }
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+#footer {
+    background: rgb(70, 3, 87);
+    color: white;
+}
+
+#footer, #row {
+    padding-top: 20px;
+}
+
+#social a i {
+    font-size: 30px;
+    margin: 5px;
+    color: rgb(137, 235, 137);
+    transition: 0.5s ease;
+}
+
+#social a:hover i {
+    color: green;
+}
+
+#contact i {
+    font-size: 25px;
+    margin: 5px;
+}
+
+#community a {
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: snow;
+    transition: 0.5s;
+}
+
+    #contact a:hover {
+        color: wheat;
+    }
+
+#copyright {
+    background-color: rgb(48, 25, 48);
+}
