@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="style.css">
 <!-- favicon icon link -->
 
+
 <link rel="icon" type="image/x-icon" href="images/icons8-lock-50.png">
 <!-- bootstrap links -->
 
